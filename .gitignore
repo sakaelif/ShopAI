@@ -1,0 +1,50 @@
+## .NET & Windows Forms için .gitignore
+
+# Build çıktıları
+[Bb]in/
+[Oo]bj/
+
+# Rider, VS Code ve Visual Studio ayarları
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet paketleri
+*.nupkg
+packages/
+*.snupkg
+
+# DotCover
+*.dotCover
+
+# Diğer geçici dosyalar
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Yayın klasörü
+publish/
+
+# config dosyalarının kişisel ayarları
+appsettings.Development.json
+
+# JetBrains Rider
+*.sln.iml
+
+# VS Code çalışma klasörü
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Kullanıcı tarafından oluşturulmuş geçici dosyalar
+*.dbmdl
+*.bak
+
+# IIS Express
+.vs/
